@@ -1,0 +1,76 @@
+OOPS Package Plan
+
+Topic: Contact Management System
+
+Classes:
+
+1. Number
+2. Contact
+3. ContactList
+
+Class Details:
+
+------------------------------
+
+class Number
+
+Data members:
+
+string number
+string field
+
+Member functions:
+
+Constructors
+Accessor and mutator methods
+
+--------------------------------
+
+class Contact
+
+Data members:
+
+string name
+vector <Number*> numbers
+
+Member functions:
+
+Constructors
+Accessor and mutator methods
+
+--------------------------------
+
+class ContactList
+
+Data members:
+
+vector <Contact*> contacts
+
+Member functions:
+
+Constructors
+Accessor and mutator methods
+
+Encoding - Decoding:
+
+string encode() -> encodes the contacts of the current objects into a string
+vector <Contact*> decode(string) -> decodes the passed string to return a vector of Contacts
+
+File related:
+
+writeToFile(string) -> encodes the ContactList and writes the string to a file
+readFromFile() -> reads from the file and decodes it
+
+Basic operations:
+
+addNewContact(s)
+deleteContact(s)
+editContact(s)
+searchContacts 
+
+--------------------------------
+
+Networking:
+
+Coding almost done. Implementation not yet decided (separate library or not)
+

@@ -1,0 +1,2 @@
+Hello
+Testing Git GUI on Windows 7

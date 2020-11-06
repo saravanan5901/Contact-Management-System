@@ -1,0 +1,7 @@
+class Number represents a field and a number.
+
+class Contact represents a contact and uses the Number class to hold numbers.
+
+class ContactList is an STL vector of Contacts.
+
+class MyTcpServer and MyTcpClient are used for networking.
